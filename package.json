@@ -1,0 +1,21 @@
+{
+  "name": "com.furkangok.buildflow",
+  "version": "0.1.0",
+  "displayName": "BuildFlow",
+  "description": "A professional Unity Editor toolkit for build automation and release management across Android, iOS, Windows, and Steam. BuildFlow centralizes profiles, validation, packaging, delivery, and distribution in a single Editor-only workflow.",
+  "unity": "6000.3",
+  "author": {
+    "name": "Furkan Gök"
+  },
+  "keywords": [
+    "build",
+    "automation",
+    "release",
+    "android",
+    "ios",
+    "windows",
+    "steam",
+    "editor"
+  ],
+  "license": "MIT"
+}

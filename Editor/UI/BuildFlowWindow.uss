@@ -1,0 +1,258 @@
+.buildflow-root {
+    flex-grow: 1;
+    flex-direction: row;
+    background-color: var(--unity-colors-window-background);
+}
+
+.buildflow-sidebar {
+    width: 180px;
+    min-width: 160px;
+    padding: 12px 8px;
+    border-right-width: 1px;
+    border-right-color: var(--unity-colors-default-border);
+    background-color: var(--unity-colors-app_toolbar-background);
+}
+
+.buildflow-brand {
+    font-size: 16px;
+    -unity-font-style: bold;
+    margin: 4px 8px 2px 8px;
+    color: var(--unity-colors-label-text);
+}
+
+.buildflow-brand-sub {
+    font-size: 10px;
+    color: var(--unity-colors-label-text);
+    opacity: 0.65;
+    margin: 0 8px 12px 8px;
+}
+
+.buildflow-nav-button {
+    margin: 2px 4px;
+    padding: 6px 10px;
+    border-radius: 3px;
+    -unity-text-align: middle-left;
+}
+
+.buildflow-nav-button--active {
+    background-color: var(--unity-colors-highlight-background);
+}
+
+.buildflow-content {
+    flex-grow: 1;
+    padding: 14px 16px;
+}
+
+.buildflow-scroll {
+    flex-grow: 1;
+}
+
+.buildflow-page-title {
+    font-size: 18px;
+    -unity-font-style: bold;
+    margin-bottom: 4px;
+    color: var(--unity-colors-label-text);
+}
+
+.buildflow-page-subtitle {
+    font-size: 11px;
+    color: var(--unity-colors-label-text);
+    opacity: 0.7;
+    margin-bottom: 14px;
+    white-space: normal;
+}
+
+.buildflow-section {
+    margin-bottom: 14px;
+    padding: 12px;
+    border-width: 1px;
+    border-color: var(--unity-colors-default-border);
+    border-radius: 4px;
+    background-color: var(--unity-colors-app_toolbar-background);
+}
+
+.buildflow-section-title {
+    font-size: 12px;
+    -unity-font-style: bold;
+    margin-bottom: 8px;
+    color: var(--unity-colors-label-text);
+}
+
+.buildflow-stats-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+}
+
+.buildflow-stat {
+    min-width: 120px;
+    margin-right: 16px;
+    margin-bottom: 8px;
+}
+
+.buildflow-stat-value {
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: var(--unity-colors-label-text);
+}
+
+.buildflow-stat-label {
+    font-size: 10px;
+    color: var(--unity-colors-label-text);
+    opacity: 0.65;
+}
+
+.buildflow-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0;
+    border-bottom-width: 1px;
+    border-bottom-color: var(--unity-colors-default-border);
+}
+
+.buildflow-row-label {
+    font-size: 11px;
+    color: var(--unity-colors-label-text);
+    opacity: 0.7;
+    min-width: 130px;
+}
+
+.buildflow-row-value {
+    font-size: 11px;
+    -unity-font-style: bold;
+    color: var(--unity-colors-label-text);
+    flex-grow: 1;
+    -unity-text-align: middle-right;
+    white-space: normal;
+}
+
+.buildflow-toolbar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.buildflow-toolbar > * {
+    margin-right: 6px;
+    margin-bottom: 4px;
+}
+
+.buildflow-list {
+    margin-top: 4px;
+}
+
+.buildflow-list-item {
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 4px;
+    border-width: 1px;
+    border-color: var(--unity-colors-default-border);
+    border-radius: 3px;
+}
+
+.buildflow-list-item--selected {
+    background-color: var(--unity-colors-highlight-background);
+}
+
+.buildflow-list-item-main {
+    flex-grow: 1;
+}
+
+.buildflow-list-item-title {
+    font-size: 12px;
+    -unity-font-style: bold;
+    color: var(--unity-colors-label-text);
+}
+
+.buildflow-list-item-meta {
+    font-size: 10px;
+    color: var(--unity-colors-label-text);
+    opacity: 0.65;
+    white-space: normal;
+}
+
+.buildflow-empty {
+    padding: 18px 8px;
+    -unity-text-align: middle-center;
+    color: var(--unity-colors-label-text);
+    opacity: 0.65;
+    white-space: normal;
+    font-size: 11px;
+}
+
+.buildflow-validation-item {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 0;
+    border-bottom-width: 1px;
+    border-bottom-color: var(--unity-colors-default-border);
+}
+
+.buildflow-badge {
+    min-width: 72px;
+    margin-right: 8px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 10px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    color: rgb(255, 255, 255);
+}
+
+.buildflow-badge--error {
+    background-color: rgb(180, 60, 60);
+}
+
+.buildflow-badge--warning {
+    background-color: rgb(180, 130, 40);
+}
+
+.buildflow-badge--info {
+    background-color: rgb(60, 110, 170);
+}
+
+.buildflow-badge--pass {
+    background-color: rgb(55, 130, 75);
+}
+
+.buildflow-validation-text {
+    flex-grow: 1;
+}
+
+.buildflow-validation-title {
+    font-size: 11px;
+    -unity-font-style: bold;
+    color: var(--unity-colors-label-text);
+}
+
+.buildflow-validation-detail {
+    font-size: 10px;
+    color: var(--unity-colors-label-text);
+    opacity: 0.75;
+    white-space: normal;
+}
+
+.buildflow-help {
+    font-size: 10px;
+    color: var(--unity-colors-label-text);
+    opacity: 0.7;
+    white-space: normal;
+    margin-top: 6px;
+}
+
+.buildflow-status-ok {
+    color: rgb(90, 180, 110);
+    -unity-font-style: bold;
+}
+
+.buildflow-status-fail {
+    color: rgb(210, 90, 90);
+    -unity-font-style: bold;
+}
+
+.buildflow-status-warn {
+    color: rgb(210, 170, 80);
+    -unity-font-style: bold;
+}
